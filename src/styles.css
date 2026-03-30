@@ -26,3 +26,19 @@ body {
   border-radius:12px;
   backdrop-filter: blur(10px);
 }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 14px;
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+}
