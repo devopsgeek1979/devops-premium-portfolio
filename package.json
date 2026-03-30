@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
+    "postbuild": "node scripts/create-404.mjs",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
