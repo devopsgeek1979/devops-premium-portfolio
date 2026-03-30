@@ -1,23 +1,20 @@
 export default function Contact() {
   return (
     <div className="container">
+      <div className="page-header">
+        <h1 className="page-title">Contact</h1>
+        <p className="page-subtitle">Let’s build something reliable.</p>
+      </div>
+
       <div className="card">
-        <h1>Contact</h1>
-        <p>
+        <p style={{ marginTop: 0 }}>
           Want to collaborate? Send me a message using the email below.
         </p>
 
-        <div style={{ marginTop: 18 }}>
+        <div className="cta" style={{ marginTop: 10, justifyContent: "flex-start" }}>
           <a
+            className="button button-primary"
             href="mailto:devopsgeek@example.com"
-            style={{
-              color: "white",
-              display: "inline-block",
-              padding: "10px 14px",
-              background: "rgba(255,255,255,0.08)",
-              borderRadius: 10,
-              textDecoration: "none",
-            }}
           >
             Email me
           </a>

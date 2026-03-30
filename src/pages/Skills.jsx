@@ -9,20 +9,17 @@ export default function Skills() {
 
   return (
     <div className="container">
+      <div className="page-header">
+        <h1 className="page-title">Skills</h1>
+        <p className="page-subtitle">Tools and practices I use to ship reliably.</p>
+      </div>
+
       <div className="card">
-        <h1>Skills</h1>
-        <div style={{ display: "grid", gap: 10 }}>
+        <div className="chips" style={{ marginTop: 12 }}>
           {skills.map((s) => (
-            <div
-              key={s}
-              style={{
-                background: "rgba(255,255,255,0.05)",
-                padding: 12,
-                borderRadius: 10,
-              }}
-            >
+            <span key={s} className="chip">
               {s}
-            </div>
+            </span>
           ))}
         </div>
       </div>
