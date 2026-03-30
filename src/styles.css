@@ -12,6 +12,7 @@ body {
   padding:20px;
   background:rgba(255,255,255,0.05);
   backdrop-filter: blur(10px);
+  flex-wrap: wrap;
 }
 
 .hero {
@@ -35,10 +36,11 @@ body {
 .nav a {
   color: white;
   text-decoration: none;
-  margin-left: 14px;
 }
 
 .nav div {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
 }
