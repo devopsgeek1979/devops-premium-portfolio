@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="nav">
-      <div className="brand">DevOps Geek</div>
+      <div className="brand">Shashi Pal Vashisht</div>
       <div className="nav-links">
         <NavLink to="/" className={({ isActive }) => `navlink${isActive ? " active" : ""}`}>
           Home

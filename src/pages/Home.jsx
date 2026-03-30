@@ -12,7 +12,7 @@ export default function Home() {
     >
       <div className="hero-content">
         <div className="hero-badge">DevOps • CI/CD • Cloud-Native</div>
-        <h1>DevOps Geek</h1>
+        <h1>Shashi Pal Vashisht</h1>
         <p>Premium DevOps Portfolio</p>
 
         <div className="cta">

@@ -12,7 +12,7 @@ export default function About() {
         <div className="card">
           <h2 style={{ marginTop: 0 }}>What I do</h2>
           <p>
-            I’m DevOps Geek—focused on building reliable CI/CD pipelines,
+            I’m Shashi Pal Vashisht—focused on building reliable CI/CD pipelines,
             infrastructure automation, and cloud-native delivery.
           </p>
         </div>
